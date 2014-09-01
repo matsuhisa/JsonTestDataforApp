@@ -4,5 +4,5 @@
   "success_url": "/entries.json",
   "scripts": {
     "postdeploy": "bundle exec rake db:setup"
-  },
+  }
 }
