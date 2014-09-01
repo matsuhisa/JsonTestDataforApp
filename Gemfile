@@ -40,6 +40,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Paging
+gem 'kaminari'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
