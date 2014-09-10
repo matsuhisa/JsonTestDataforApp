@@ -1,0 +1,9 @@
+box: wercker/ubuntu12.04-ruby2.0.0
+services:
+    - wercker/postgresql
+deploy:
+    steps:
+        - heroku-deploy
+        - script:
+            name: Update database
+            code: heroku run rake db:migrate
