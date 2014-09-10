@@ -10,3 +10,4 @@
 ## このあと
 
 * wercker
+* Travis CI
