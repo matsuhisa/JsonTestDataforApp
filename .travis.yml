@@ -6,4 +6,4 @@ deploy:
     secure: hjSrO3Azi/jCQgWbYyDhMttsSvKWwriMD3TQfrothDjoRCzt68vGHn57+OuC7AndUFAVMMwnS/5wfcQfG2VyG9UJjEddoGndoxzg2W+Qt/1JqHJrKoj+1KFr9s0kbYxxIO7JcMXLENUvASe9YdPcBauG1XE4SfwFljZFV9FgDho=
   app: morning-bastion-2096
   on:
-    repo: matsuhisa/JsonTestDataforApp
+    repo: master 
