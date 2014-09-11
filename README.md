@@ -10,4 +10,5 @@
 * wercker
 * Travis CI
 * Travis CI
+* Travis CI
 * たぶん何か書く
