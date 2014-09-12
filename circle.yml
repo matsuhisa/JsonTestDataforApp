@@ -1,8 +1,8 @@
 deployment:
   prod:
     branch: release
+    commands: 
+      - heroku run rake db:migrate --app morning-bastion-2096:
+        - timeout: 400 # if your deploys take a long time
     heroku:
       appname: morning-bastion-2096
-      commands: 
-        - heroku run rake db:migrate --app morning-bastion-2096:
-          - timeout: 400 # if your deploys take a long time
