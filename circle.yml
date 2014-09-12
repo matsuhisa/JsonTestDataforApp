@@ -1,5 +1,7 @@
 deployment:
   prod:
-    branch: master
+    branch: release
     heroku:
       appname: morning-bastion-2096
+      commands: 
+        - heroku run rake db:migrate --app morning-bastion-2096
